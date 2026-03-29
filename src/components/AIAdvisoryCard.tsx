@@ -38,8 +38,8 @@ const AIAdvisoryCard = () => {
           <Bot className="w-5 h-5 text-primary-foreground" />
         </div>
         <div>
-          <h3 className="text-lg font-bold text-foreground">🤖 AI Advisory</h3>
-          <p className="text-xs text-muted-foreground">Powered by smart farming AI</p>
+          <h3 className="text-lg font-bold text-foreground">🤖 AI အကြံပေး</h3>
+          <p className="text-xs text-muted-foreground">စမတ် စိုက်ပျိုးရေး AI ဖြင့် အသုံးပြုသည်</p>
         </div>
       </div>
 

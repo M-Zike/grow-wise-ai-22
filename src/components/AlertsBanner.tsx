@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { AlertTriangle, CloudRain, Thermometer } from "lucide-react";
 
 const alerts = [
-  { icon: CloudRain, text: "Heavy rain expected Wednesday — secure crops", type: "warning" as const },
-  { icon: Thermometer, text: "Temperature dropping to 15°C tonight", type: "info" as const },
-  { icon: AlertTriangle, text: "Tomato blight risk is high this week", type: "destructive" as const },
+  { icon: CloudRain, text: "ဗုဒ္ဓဟူးနေ့ မိုးသည်းထန်စွာ ရွာမည် — သီးနှံများ လုံခြုံအောင်ထားပါ", type: "warning" as const },
+  { icon: Thermometer, text: "ယနေ့ည အပူချိန် ၁၅°C သို့ကျဆင်းမည်", type: "info" as const },
+  { icon: AlertTriangle, text: "ဤအပတ် ခရမတီ ရောဂါဖြစ်နိုင်ခြေ မြင့်မားသည်", type: "destructive" as const },
 ];
 
 const AlertsBanner = () => {

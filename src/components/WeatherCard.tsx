@@ -27,9 +27,9 @@ const WeatherCard = () => {
       </div>
 
       <div className="flex items-center gap-4 mb-4 text-sm opacity-80">
-        <span className="flex items-center gap-1"><Wind className="w-4 h-4" /> 12 km/h</span>
-        <span className="flex items-center gap-1"><Droplets className="w-4 h-4" /> 65%</span>
-        <span className="flex items-center gap-1"><Thermometer className="w-4 h-4" /> Feels 30°C</span>
+        <span className="flex items-center gap-1"><Wind className="w-4 h-4" /> ၁၂ ကီလို/နာရီ</span>
+        <span className="flex items-center gap-1"><Droplets className="w-4 h-4" /> ၆၅%</span>
+        <span className="flex items-center gap-1"><Thermometer className="w-4 h-4" /> ခံစားရ ၃၀°C</span>
       </div>
 
       <div className="grid grid-cols-5 gap-2 pt-4 border-t border-info-foreground/20">

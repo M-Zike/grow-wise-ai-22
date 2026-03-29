@@ -2,11 +2,11 @@ import { Home, Leaf, Camera, Bot, User } from "lucide-react";
 import { useState } from "react";
 
 const tabs = [
-  { icon: Home, label: "Home" },
-  { icon: Leaf, label: "Crops" },
-  { icon: Camera, label: "Scan" },
-  { icon: Bot, label: "Advisor" },
-  { icon: User, label: "Profile" },
+  { icon: Home, label: "ပင်မ" },
+  { icon: Leaf, label: "သီးနှံ" },
+  { icon: Camera, label: "စကင်" },
+  { icon: Bot, label: "အကြံပေး" },
+  { icon: User, label: "ပရိုဖိုင်" },
 ];
 
 const BottomNav = () => {

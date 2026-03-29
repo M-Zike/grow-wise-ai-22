@@ -74,7 +74,7 @@ const AIAdvisoryCard = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
-          placeholder="Ask your farming question..."
+          placeholder="သင့်စိုက်ပျိုးရေး မေးခွန်းကို မေးပါ..."
           className="flex-1"
         />
         <Button onClick={handleSend} size="icon" className="gradient-hero text-primary-foreground border-0">

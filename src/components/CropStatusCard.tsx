@@ -38,7 +38,7 @@ const CropStatusCard = () => {
                 <TrendingUp className="w-3 h-3 text-success" />
                 <span className="text-sm font-bold text-foreground">{crop.health}%</span>
               </div>
-              <span className="text-xs text-muted-foreground">Health</span>
+              <span className="text-xs text-muted-foreground">ကျန်းမာရေး</span>
             </div>
           </div>
         ))}

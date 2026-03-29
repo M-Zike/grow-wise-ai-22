@@ -15,8 +15,8 @@ const SoilHealthCard = () => {
       transition={{ delay: 0.2 }}
       className="rounded-2xl bg-card p-6 shadow-card"
     >
-      <h3 className="text-lg font-bold text-foreground mb-1">🌱 Soil Health</h3>
-      <p className="text-sm text-muted-foreground mb-4">Last analyzed: 2 days ago</p>
+      <h3 className="text-lg font-bold text-foreground mb-1">🌱 မြေဆီလွှာ ကျန်းမာရေး</h3>
+      <p className="text-sm text-muted-foreground mb-4">နောက်ဆုံး စစ်ဆေးခဲ့သည်: ၂ ရက်အရင်</p>
 
       <div className="space-y-4">
         {metrics.map((m) => (

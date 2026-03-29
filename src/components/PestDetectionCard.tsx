@@ -58,7 +58,7 @@ const PestDetectionCard = () => {
             </div>
             <div className="flex-1">
               <p className="text-sm font-medium text-foreground">{scan.issue}</p>
-              <p className="text-xs text-muted-foreground">{scan.crop} • {scan.confidence}% confidence</p>
+              <p className="text-xs text-muted-foreground">{scan.crop} • {scan.confidence}% ယုံကြည်မှု</p>
             </div>
           </div>
         ))}

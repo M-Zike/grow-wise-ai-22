@@ -25,10 +25,10 @@ const Index = () => {
             className="flex items-center justify-between mb-6"
           >
             <div>
-              <h1 className="text-2xl font-bold text-primary-foreground">Good Morning 🌾</h1>
+              <h1 className="text-2xl font-bold text-primary-foreground">မင်္ဂလာပါ 🌾</h1>
               <div className="flex items-center gap-1 text-primary-foreground/80 text-sm mt-0.5">
                 <MapPin className="w-3.5 h-3.5" />
-                <span>Punjab, India</span>
+                <span>မန္တလေး, မြန်မာ</span>
               </div>
             </div>
             <button className="w-10 h-10 rounded-xl bg-primary-foreground/20 backdrop-blur flex items-center justify-center">

@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Droplets, Leaf, FlaskConical } from "lucide-react";
 
 const metrics = [
-  { label: "pH Level", value: "6.5", status: "Optimal", icon: FlaskConical, percent: 75, color: "bg-success" },
-  { label: "Moisture", value: "42%", status: "Good", icon: Droplets, percent: 42, color: "bg-info" },
-  { label: "Nitrogen", value: "Medium", status: "Add Urea", icon: Leaf, percent: 55, color: "bg-warning" },
+  { label: "pH အဆင့်", value: "၆.၅", status: "အကောင်းဆုံး", icon: FlaskConical, percent: 75, color: "bg-success" },
+  { label: "စိုထိုင်းဆ", value: "၄၂%", status: "ကောင်းသည်", icon: Droplets, percent: 42, color: "bg-info" },
+  { label: "နိုက်ထရိုဂျင်", value: "အလယ်အလတ်", status: "ယူရီးယား ထည့်ပါ", icon: Leaf, percent: 55, color: "bg-warning" },
 ];
 
 const SoilHealthCard = () => {
@@ -15,8 +15,8 @@ const SoilHealthCard = () => {
       transition={{ delay: 0.2 }}
       className="rounded-2xl bg-card p-6 shadow-card"
     >
-      <h3 className="text-lg font-bold text-foreground mb-1">🌱 Soil Health</h3>
-      <p className="text-sm text-muted-foreground mb-4">Last analyzed: 2 days ago</p>
+      <h3 className="text-lg font-bold text-foreground mb-1">🌱 မြေဆီလွှာ ကျန်းမာရေး</h3>
+      <p className="text-sm text-muted-foreground mb-4">နောက်ဆုံး စစ်ဆေးခဲ့သည်: ၂ ရက်အရင်</p>
 
       <div className="space-y-4">
         {metrics.map((m) => (

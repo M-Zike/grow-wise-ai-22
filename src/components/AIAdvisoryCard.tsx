@@ -5,14 +5,14 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 const suggestions = [
-  "When should I irrigate my rice field?",
-  "Best fertilizer for tomatoes?",
-  "How to prevent blight naturally?",
+  "စပါးခင်းကို ဘယ်အချိန် ရေလောင်းသင့်လဲ?",
+  "ခရမတီအတွက် အကောင်းဆုံး ဓာတ်မြေသြဇာ?",
+  "ရောဂါကို သဘာဝနည်းဖြင့် ဘယ်လို ကာကွယ်မလဲ?",
 ];
 
 const AIAdvisoryCard = () => {
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Hello! I'm your AI farming assistant. Ask me anything about your crops, soil, or farming practices. 🌾" },
+    { role: "assistant", content: "မင်္ဂလာပါ! ကျွန်တော်က သင့်ရဲ့ AI စိုက်ပျိုးရေး အကြံပေးပါ။ သီးနှံ၊ မြေဆီလွှာ သို့မဟုတ် စိုက်ပျိုးရေး နည်းလမ်းများအကြောင်း မေးလိုက်ပါ။ 🌾" },
   ]);
   const [input, setInput] = useState("");
 
@@ -21,7 +21,7 @@ const AIAdvisoryCard = () => {
     setMessages((prev) => [
       ...prev,
       { role: "user", content: input },
-      { role: "assistant", content: "Based on your current soil moisture (42%) and the upcoming rain forecast for Wednesday, I recommend delaying irrigation for 2 days. This will save water and prevent waterlogging. 💧" },
+      { role: "assistant", content: "သင့်မြေဆီလွှာ စိုထိုင်းဆ (၄၂%) နှင့် ဗုဒ္ဓဟူးနေ့ မိုးခန့်မှန်းချက်အရ ရေလောင်းခြင်းကို ၂ ရက် နောက်ဆုတ်ရန် အကြံပြုပါသည်။ ရေချွေတာပြီး ရေဝပ်ခြင်းကို ကာကွယ်နိုင်ပါမည်။ 💧" },
     ]);
     setInput("");
   };
@@ -38,8 +38,8 @@ const AIAdvisoryCard = () => {
           <Bot className="w-5 h-5 text-primary-foreground" />
         </div>
         <div>
-          <h3 className="text-lg font-bold text-foreground">🤖 AI Advisory</h3>
-          <p className="text-xs text-muted-foreground">Powered by smart farming AI</p>
+          <h3 className="text-lg font-bold text-foreground">🤖 AI အကြံပေး</h3>
+          <p className="text-xs text-muted-foreground">စမတ် စိုက်ပျိုးရေး AI ဖြင့် အသုံးပြုသည်</p>
         </div>
       </div>
 
@@ -74,7 +74,7 @@ const AIAdvisoryCard = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handleSend()}
-          placeholder="Ask your farming question..."
+          placeholder="သင့်စိုက်ပျိုးရေး မေးခွန်းကို မေးပါ..."
           className="flex-1"
         />
         <Button onClick={handleSend} size="icon" className="gradient-hero text-primary-foreground border-0">

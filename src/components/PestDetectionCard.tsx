@@ -18,8 +18,8 @@ const PestDetectionCard = () => {
       transition={{ delay: 0.4 }}
       className="rounded-2xl bg-card p-6 shadow-card"
     >
-      <h3 className="text-lg font-bold text-foreground mb-1">📷 Pest & Disease Detection</h3>
-      <p className="text-sm text-muted-foreground mb-4">AI-powered crop health analysis</p>
+      <h3 className="text-lg font-bold text-foreground mb-1">📷 ပိုးမွှား နှင့် ရောဂါ ရှာဖွေခြင်း</h3>
+      <p className="text-sm text-muted-foreground mb-4">AI ဖြင့် သီးနှံ ကျန်းမာရေး စစ်ဆေးခြင်း</p>
 
       <div
         className={`border-2 border-dashed rounded-xl p-8 text-center transition-colors ${

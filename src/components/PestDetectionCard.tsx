@@ -32,8 +32,8 @@ const PestDetectionCard = () => {
         <div className="w-14 h-14 rounded-2xl gradient-hero mx-auto mb-3 flex items-center justify-center">
           <Camera className="w-7 h-7 text-primary-foreground" />
         </div>
-        <p className="text-sm font-medium text-foreground mb-1">Upload crop photo</p>
-        <p className="text-xs text-muted-foreground mb-3">Drag & drop or click to browse</p>
+        <p className="text-sm font-medium text-foreground mb-1">သီးနှံ ဓာတ်ပုံ တင်ပါ</p>
+        <p className="text-xs text-muted-foreground mb-3">ဆွဲချပါ သို့မဟုတ် ရွေးချယ်ပါ</p>
         <div className="flex gap-2 justify-center">
           <Button size="sm" className="gradient-hero text-primary-foreground border-0">
             <Upload className="w-4 h-4 mr-1" /> Upload

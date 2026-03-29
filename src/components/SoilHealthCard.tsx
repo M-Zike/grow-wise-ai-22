@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Droplets, Leaf, FlaskConical } from "lucide-react";
 
 const metrics = [
-  { label: "pH Level", value: "6.5", status: "Optimal", icon: FlaskConical, percent: 75, color: "bg-success" },
-  { label: "Moisture", value: "42%", status: "Good", icon: Droplets, percent: 42, color: "bg-info" },
-  { label: "Nitrogen", value: "Medium", status: "Add Urea", icon: Leaf, percent: 55, color: "bg-warning" },
+  { label: "pH အဆင့်", value: "၆.၅", status: "အကောင်းဆုံး", icon: FlaskConical, percent: 75, color: "bg-success" },
+  { label: "စိုထိုင်းဆ", value: "၄၂%", status: "ကောင်းသည်", icon: Droplets, percent: 42, color: "bg-info" },
+  { label: "နိုက်ထရိုဂျင်", value: "အလယ်အလတ်", status: "ယူရီးယား ထည့်ပါ", icon: Leaf, percent: 55, color: "bg-warning" },
 ];
 
 const SoilHealthCard = () => {

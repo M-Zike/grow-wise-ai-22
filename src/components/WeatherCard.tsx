@@ -2,11 +2,11 @@ import { Cloud, Droplets, Sun, Wind, Thermometer } from "lucide-react";
 import { motion } from "framer-motion";
 
 const forecast = [
-  { day: "Mon", icon: Sun, temp: 32, condition: "Sunny" },
-  { day: "Tue", icon: Cloud, temp: 28, condition: "Cloudy" },
-  { day: "Wed", icon: Droplets, temp: 25, condition: "Rain" },
-  { day: "Thu", icon: Sun, temp: 30, condition: "Sunny" },
-  { day: "Fri", icon: Cloud, temp: 27, condition: "Partly Cloudy" },
+  { day: "တနင်္လာ", icon: Sun, temp: 32, condition: "နေပူ" },
+  { day: "အင်္ဂါ", icon: Cloud, temp: 28, condition: "တိမ်ထူ" },
+  { day: "ဗုဒ္ဓဟူး", icon: Droplets, temp: 25, condition: "မိုးရွာ" },
+  { day: "ကြာသပတေး", icon: Sun, temp: 30, condition: "နေပူ" },
+  { day: "သောကြာ", icon: Cloud, temp: 27, condition: "တိမ်အနည်းငယ်" },
 ];
 
 const WeatherCard = () => {

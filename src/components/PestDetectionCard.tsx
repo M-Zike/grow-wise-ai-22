@@ -45,7 +45,7 @@ const PestDetectionCard = () => {
       </div>
 
       <div className="mt-4 space-y-2">
-        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">Recent Scans</p>
+        <p className="text-xs font-semibold text-muted-foreground uppercase tracking-wide">မကြာမီက စစ်ဆေးမှုများ</p>
         {recentScans.map((scan, i) => (
           <div key={i} className="flex items-center gap-3 p-2 rounded-lg bg-muted/50">
             <div className={`w-8 h-8 rounded-lg flex items-center justify-center ${

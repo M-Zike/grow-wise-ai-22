@@ -15,8 +15,8 @@ const CropStatusCard = () => {
       transition={{ delay: 0.3 }}
       className="rounded-2xl bg-card p-6 shadow-card"
     >
-      <h3 className="text-lg font-bold text-foreground mb-1">🌾 Crop Status</h3>
-      <p className="text-sm text-muted-foreground mb-4">3 active crops</p>
+      <h3 className="text-lg font-bold text-foreground mb-1">🌾 သီးနှံ အခြေအနေ</h3>
+      <p className="text-sm text-muted-foreground mb-4">သီးနှံ ၃ မျိုး စိုက်ပျိုးဆဲ</p>
 
       <div className="space-y-3">
         {crops.map((crop) => (

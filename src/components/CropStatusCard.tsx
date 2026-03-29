@@ -1,0 +1,50 @@
+import { motion } from "framer-motion";
+import { TrendingUp, AlertTriangle, CheckCircle } from "lucide-react";
+
+const crops = [
+  { name: "Rice (Paddy)", stage: "Flowering", health: 92, status: "healthy", daysLeft: 35 },
+  { name: "Tomatoes", stage: "Fruiting", health: 78, status: "warning", daysLeft: 20 },
+  { name: "Wheat", stage: "Germination", health: 95, status: "healthy", daysLeft: 90 },
+];
+
+const CropStatusCard = () => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 20 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.3 }}
+      className="rounded-2xl bg-card p-6 shadow-card"
+    >
+      <h3 className="text-lg font-bold text-foreground mb-1">🌾 Crop Status</h3>
+      <p className="text-sm text-muted-foreground mb-4">3 active crops</p>
+
+      <div className="space-y-3">
+        {crops.map((crop) => (
+          <div key={crop.name} className="p-3 rounded-xl bg-muted/50 flex items-center gap-3">
+            <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${
+              crop.status === "healthy" ? "bg-success/15" : "bg-warning/15"
+            }`}>
+              {crop.status === "healthy" 
+                ? <CheckCircle className="w-5 h-5 text-success" />
+                : <AlertTriangle className="w-5 h-5 text-warning" />
+              }
+            </div>
+            <div className="flex-1">
+              <p className="text-sm font-semibold text-foreground">{crop.name}</p>
+              <p className="text-xs text-muted-foreground">{crop.stage} • {crop.daysLeft} days to harvest</p>
+            </div>
+            <div className="text-right">
+              <div className="flex items-center gap-1">
+                <TrendingUp className="w-3 h-3 text-success" />
+                <span className="text-sm font-bold text-foreground">{crop.health}%</span>
+              </div>
+              <span className="text-xs text-muted-foreground">Health</span>
+            </div>
+          </div>
+        ))}
+      </div>
+    </motion.div>
+  );
+};
+
+export default CropStatusCard;

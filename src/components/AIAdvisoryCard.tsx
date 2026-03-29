@@ -21,7 +21,7 @@ const AIAdvisoryCard = () => {
     setMessages((prev) => [
       ...prev,
       { role: "user", content: input },
-      { role: "assistant", content: "Based on your current soil moisture (42%) and the upcoming rain forecast for Wednesday, I recommend delaying irrigation for 2 days. This will save water and prevent waterlogging. 💧" },
+      { role: "assistant", content: "သင့်မြေဆီလွှာ စိုထိုင်းဆ (၄၂%) နှင့် ဗုဒ္ဓဟူးနေ့ မိုးခန့်မှန်းချက်အရ ရေလောင်းခြင်းကို ၂ ရက် နောက်ဆုတ်ရန် အကြံပြုပါသည်။ ရေချွေတာပြီး ရေဝပ်ခြင်းကို ကာကွယ်နိုင်ပါမည်။ 💧" },
     ]);
     setInput("");
   };

@@ -19,9 +19,9 @@ const WeatherCard = () => {
     >
       <div className="flex items-center justify-between mb-4">
         <div>
-          <p className="text-sm opacity-80">Current Weather</p>
-          <h3 className="text-3xl font-bold">28°C</h3>
-          <p className="text-sm opacity-80">Partly Cloudy • Humidity 65%</p>
+          <p className="text-sm opacity-80">လက်ရှိ ရာသီဥတု</p>
+          <h3 className="text-3xl font-bold">၂၈°C</h3>
+          <p className="text-sm opacity-80">တိမ်အနည်းငယ် • စိုထိုင်းဆ ၆၅%</p>
         </div>
         <Sun className="w-16 h-16 opacity-90" />
       </div>

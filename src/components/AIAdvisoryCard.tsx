@@ -12,7 +12,7 @@ const suggestions = [
 
 const AIAdvisoryCard = () => {
   const [messages, setMessages] = useState([
-    { role: "assistant", content: "Hello! I'm your AI farming assistant. Ask me anything about your crops, soil, or farming practices. 🌾" },
+    { role: "assistant", content: "မင်္ဂလာပါ! ကျွန်တော်က သင့်ရဲ့ AI စိုက်ပျိုးရေး အကြံပေးပါ။ သီးနှံ၊ မြေဆီလွှာ သို့မဟုတ် စိုက်ပျိုးရေး နည်းလမ်းများအကြောင်း မေးလိုက်ပါ။ 🌾" },
   ]);
   const [input, setInput] = useState("");
 

@@ -4,8 +4,8 @@ import { Camera, Upload, Search, ShieldAlert } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const recentScans = [
-  { crop: "Tomato leaf", issue: "Early Blight", confidence: 94, severity: "Medium" },
-  { crop: "Rice plant", issue: "No issues detected", confidence: 98, severity: "None" },
+  { crop: "ခရမတီ အရွက်", issue: "အစောပိုင်း ရောဂါ", confidence: 94, severity: "Medium" },
+  { crop: "စပါးပင်", issue: "ပြဿနာ မတွေ့ပါ", confidence: 98, severity: "None" },
 ];
 
 const PestDetectionCard = () => {

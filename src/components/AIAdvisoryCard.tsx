@@ -5,9 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 
 const suggestions = [
-  "When should I irrigate my rice field?",
-  "Best fertilizer for tomatoes?",
-  "How to prevent blight naturally?",
+  "စပါးခင်းကို ဘယ်အချိန် ရေလောင်းသင့်လဲ?",
+  "ခရမတီအတွက် အကောင်းဆုံး ဓာတ်မြေသြဇာ?",
+  "ရောဂါကို သဘာဝနည်းဖြင့် ဘယ်လို ကာကွယ်မလဲ?",
 ];
 
 const AIAdvisoryCard = () => {

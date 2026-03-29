@@ -31,7 +31,7 @@ const CropStatusCard = () => {
             </div>
             <div className="flex-1">
               <p className="text-sm font-semibold text-foreground">{crop.name}</p>
-              <p className="text-xs text-muted-foreground">{crop.stage} • {crop.daysLeft} days to harvest</p>
+              <p className="text-xs text-muted-foreground">{crop.stage} • ရိတ်သိမ်းရန် {crop.daysLeft} ရက်</p>
             </div>
             <div className="text-right">
               <div className="flex items-center gap-1">

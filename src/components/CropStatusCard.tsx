@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { TrendingUp, AlertTriangle, CheckCircle } from "lucide-react";
 
 const crops = [
-  { name: "Rice (Paddy)", stage: "Flowering", health: 92, status: "healthy", daysLeft: 35 },
-  { name: "Tomatoes", stage: "Fruiting", health: 78, status: "warning", daysLeft: 20 },
-  { name: "Wheat", stage: "Germination", health: 95, status: "healthy", daysLeft: 90 },
+  { name: "စပါး", stage: "ပန်းပွင့်ချိန်", health: 92, status: "healthy", daysLeft: 35 },
+  { name: "ခရမတီ", stage: "အသီးသီးချိန်", health: 78, status: "warning", daysLeft: 20 },
+  { name: "ဂျုံ", stage: "အပင်ပေါက်ချိန်", health: 95, status: "healthy", daysLeft: 90 },
 ];
 
 const CropStatusCard = () => {
